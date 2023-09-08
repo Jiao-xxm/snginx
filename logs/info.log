@@ -1,0 +1,107 @@
+[2023-08-28 02:09:23.904+0800] INFO  [restartedMain] o.s.b.StartupInfoLogger:50 {} Starting SnginxApplication on reinstajdkdembp with PID 78317 (/Users/reinstalljdk/IdeaProjects/snginx/target/classes started by reinstalljdk in /Users/reinstalljdk/IdeaProjects/snginx)
+[2023-08-28 02:09:23.906+0800] INFO  [restartedMain] o.s.b.SpringApplication:647 {} No active profile set, falling back to default profiles: default
+[2023-08-28 02:09:23.918+0800] INFO  [restartedMain] o.s.b.l.DeferredLog:225 {} Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2023-08-28 02:09:23.918+0800] INFO  [restartedMain] o.s.b.l.DeferredLog:225 {} For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2023-08-28 02:09:24.149+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:244 {} Multiple Spring Data modules found, entering strict repository configuration mode!
+[2023-08-28 02:09:24.150+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:126 {} Bootstrapping Spring Data repositories in DEFAULT mode.
+[2023-08-28 02:09:24.156+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:182 {} Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+[2023-08-28 02:09:24.161+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:244 {} Multiple Spring Data modules found, entering strict repository configuration mode!
+[2023-08-28 02:09:24.162+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:126 {} Bootstrapping Spring Data repositories in DEFAULT mode.
+[2023-08-28 02:09:24.166+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:182 {} Finished Spring Data repository scanning in 1ms. Found 0 repository interfaces.
+[2023-08-28 02:09:24.278+0800] INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 {} Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1093c3e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-08-28 02:09:24.434+0800] INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer:90 {} Tomcat initialized with port(s): 9980 (http)
+[2023-08-28 02:09:24.472+0800] INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext:284 {} Root WebApplicationContext: initialization completed in 554 ms
+[2023-08-28 02:09:24.494+0800] INFO  [restartedMain] c.y.s.SnginxApplication:20 {} info
+[2023-08-28 02:09:24.578+0800] INFO  [restartedMain] c.m.d.l.SLF4JLogger:71 {} Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2023-08-28 02:09:24.607+0800] INFO  [cluster-ClusterId{value='64eb9154b27aeb31ed3fdc77', description='null'}-localhost:27017] c.m.d.l.SLF4JLogger:71 {} Opened connection [connectionId{localValue:1}] to localhost:27017
+[2023-08-28 02:09:24.609+0800] INFO  [cluster-ClusterId{value='64eb9154b27aeb31ed3fdc77', description='null'}-localhost:27017] c.m.d.l.SLF4JLogger:71 {} Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[7, 0, 0]}, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2263291}
+[2023-08-28 02:09:24.652+0800] INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer:57 {} LiveReload server is running on port 35729
+[2023-08-28 02:09:24.846+0800] INFO  [restartedMain] o.r.Version:41 {} Redisson 3.13.6
+[2023-08-28 02:09:24.940+0800] INFO  [redisson-netty-4-19] o.r.c.p.ConnectionPool$1:167 {} 1 connections initialized for localhost/127.0.0.1:6379
+[2023-08-28 02:09:24.947+0800] INFO  [redisson-netty-4-18] o.r.c.p.ConnectionPool$1:167 {} 24 connections initialized for localhost/127.0.0.1:6379
+[2023-08-28 02:09:25.063+0800] INFO  [restartedMain] o.s.s.c.ExecutorConfigurationSupport:171 {} Initializing ExecutorService 'applicationTaskExecutor'
+[2023-08-28 02:09:25.168+0800] INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer:202 {} Tomcat started on port(s): 9980 (http) with context path ''
+[2023-08-28 02:09:25.169+0800] INFO  [restartedMain] o.s.b.StartupInfoLogger:59 {} Started SnginxApplication in 1.39 seconds (JVM running for 1.839)
+[2023-08-28 02:09:49.574+0800] INFO  [http-nio-9980-exec-2] o.s.w.s.FrameworkServlet:524 {} Initializing Servlet 'dispatcherServlet'
+[2023-08-28 02:09:49.579+0800] INFO  [http-nio-9980-exec-2] o.s.w.s.FrameworkServlet:546 {} Completed initialization in 5 ms
+[2023-08-28 02:12:58.123+0800] INFO  [Thread-11] o.s.s.c.ExecutorConfigurationSupport:208 {} Shutting down ExecutorService 'applicationTaskExecutor'
+[2023-08-28 02:13:01.491+0800] INFO  [restartedMain] o.s.b.StartupInfoLogger:50 {} Starting SnginxApplication on reinstajdkdembp with PID 78670 (/Users/reinstalljdk/IdeaProjects/snginx/target/classes started by reinstalljdk in /Users/reinstalljdk/IdeaProjects/snginx)
+[2023-08-28 02:13:01.492+0800] INFO  [restartedMain] o.s.b.SpringApplication:647 {} No active profile set, falling back to default profiles: default
+[2023-08-28 02:13:01.505+0800] INFO  [restartedMain] o.s.b.l.DeferredLog:225 {} Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2023-08-28 02:13:01.505+0800] INFO  [restartedMain] o.s.b.l.DeferredLog:225 {} For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2023-08-28 02:13:01.710+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:244 {} Multiple Spring Data modules found, entering strict repository configuration mode!
+[2023-08-28 02:13:01.711+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:126 {} Bootstrapping Spring Data repositories in DEFAULT mode.
+[2023-08-28 02:13:01.717+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:182 {} Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+[2023-08-28 02:13:01.720+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:244 {} Multiple Spring Data modules found, entering strict repository configuration mode!
+[2023-08-28 02:13:01.720+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:126 {} Bootstrapping Spring Data repositories in DEFAULT mode.
+[2023-08-28 02:13:01.724+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:182 {} Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+[2023-08-28 02:13:01.828+0800] INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 {} Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9e2310fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-08-28 02:13:01.971+0800] INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer:90 {} Tomcat initialized with port(s): 9980 (http)
+[2023-08-28 02:13:02.007+0800] INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext:284 {} Root WebApplicationContext: initialization completed in 502 ms
+[2023-08-28 02:13:02.025+0800] INFO  [restartedMain] c.y.s.SnginxApplication:20 {} info
+[2023-08-28 02:13:02.108+0800] INFO  [restartedMain] c.m.d.l.SLF4JLogger:71 {} Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2023-08-28 02:13:02.135+0800] INFO  [cluster-ClusterId{value='64eb922eb27aeb334e3c6db8', description='null'}-localhost:27017] c.m.d.l.SLF4JLogger:71 {} Opened connection [connectionId{localValue:1}] to localhost:27017
+[2023-08-28 02:13:02.138+0800] INFO  [cluster-ClusterId{value='64eb922eb27aeb334e3c6db8', description='null'}-localhost:27017] c.m.d.l.SLF4JLogger:71 {} Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[7, 0, 0]}, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1872250}
+[2023-08-28 02:13:02.183+0800] INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer:57 {} LiveReload server is running on port 35729
+[2023-08-28 02:13:02.354+0800] INFO  [restartedMain] o.r.Version:41 {} Redisson 3.13.6
+[2023-08-28 02:13:02.438+0800] INFO  [redisson-netty-4-25] o.r.c.p.ConnectionPool$1:167 {} 1 connections initialized for localhost/127.0.0.1:6379
+[2023-08-28 02:13:02.449+0800] INFO  [redisson-netty-4-20] o.r.c.p.ConnectionPool$1:167 {} 24 connections initialized for localhost/127.0.0.1:6379
+[2023-08-28 02:13:02.562+0800] INFO  [restartedMain] o.s.s.c.ExecutorConfigurationSupport:171 {} Initializing ExecutorService 'applicationTaskExecutor'
+[2023-08-28 02:13:02.663+0800] INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer:202 {} Tomcat started on port(s): 9980 (http) with context path ''
+[2023-08-28 02:13:02.664+0800] INFO  [restartedMain] o.s.b.StartupInfoLogger:59 {} Started SnginxApplication in 1.296 seconds (JVM running for 1.728)
+[2023-08-28 02:13:07.254+0800] INFO  [http-nio-9980-exec-2] o.s.w.s.FrameworkServlet:524 {} Initializing Servlet 'dispatcherServlet'
+[2023-08-28 02:13:07.257+0800] INFO  [http-nio-9980-exec-2] o.s.w.s.FrameworkServlet:546 {} Completed initialization in 3 ms
+[2023-08-28 02:15:32.573+0800] INFO  [Thread-6] o.s.s.c.ExecutorConfigurationSupport:208 {} Shutting down ExecutorService 'applicationTaskExecutor'
+[2023-08-28 02:15:32.712+0800] INFO  [restartedMain] o.s.b.StartupInfoLogger:50 {} Starting SnginxApplication on reinstajdkdembp with PID 78670 (/Users/reinstalljdk/IdeaProjects/snginx/target/classes started by reinstalljdk in /Users/reinstalljdk/IdeaProjects/snginx)
+[2023-08-28 02:15:32.712+0800] INFO  [restartedMain] o.s.b.SpringApplication:647 {} No active profile set, falling back to default profiles: default
+[2023-08-28 02:15:32.777+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:244 {} Multiple Spring Data modules found, entering strict repository configuration mode!
+[2023-08-28 02:15:32.777+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:126 {} Bootstrapping Spring Data repositories in DEFAULT mode.
+[2023-08-28 02:15:32.780+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:182 {} Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+[2023-08-28 02:15:32.781+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:244 {} Multiple Spring Data modules found, entering strict repository configuration mode!
+[2023-08-28 02:15:32.781+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:126 {} Bootstrapping Spring Data repositories in DEFAULT mode.
+[2023-08-28 02:15:32.782+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:182 {} Finished Spring Data repository scanning in 1ms. Found 0 repository interfaces.
+[2023-08-28 02:15:32.801+0800] INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 {} Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9e2310fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-08-28 02:15:32.821+0800] INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer:90 {} Tomcat initialized with port(s): 9980 (http)
+[2023-08-28 02:15:32.825+0800] INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext:284 {} Root WebApplicationContext: initialization completed in 112 ms
+[2023-08-28 02:15:32.833+0800] INFO  [restartedMain] c.y.s.SnginxApplication:20 {} info
+[2023-08-28 02:15:32.842+0800] INFO  [restartedMain] c.m.d.l.SLF4JLogger:71 {} Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2023-08-28 02:15:32.848+0800] INFO  [cluster-ClusterId{value='64eb92c4b27aeb334e3c6db9', description='null'}-localhost:27017] c.m.d.l.SLF4JLogger:71 {} Opened connection [connectionId{localValue:2}] to localhost:27017
+[2023-08-28 02:15:32.849+0800] INFO  [cluster-ClusterId{value='64eb92c4b27aeb334e3c6db9', description='null'}-localhost:27017] c.m.d.l.SLF4JLogger:71 {} Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[7, 0, 0]}, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=690458}
+[2023-08-28 02:15:32.852+0800] INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer:57 {} LiveReload server is running on port 35729
+[2023-08-28 02:15:32.880+0800] INFO  [restartedMain] o.r.Version:41 {} Redisson 3.13.6
+[2023-08-28 02:15:32.897+0800] INFO  [redisson-netty-9-6] o.r.c.p.ConnectionPool$1:167 {} 1 connections initialized for localhost/127.0.0.1:6379
+[2023-08-28 02:15:32.901+0800] INFO  [redisson-netty-9-20] o.r.c.p.ConnectionPool$1:167 {} 24 connections initialized for localhost/127.0.0.1:6379
+[2023-08-28 02:15:32.932+0800] INFO  [restartedMain] o.s.s.c.ExecutorConfigurationSupport:171 {} Initializing ExecutorService 'applicationTaskExecutor'
+[2023-08-28 02:15:32.979+0800] INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer:202 {} Tomcat started on port(s): 9980 (http) with context path ''
+[2023-08-28 02:15:32.979+0800] INFO  [restartedMain] o.s.b.StartupInfoLogger:59 {} Started SnginxApplication in 0.285 seconds (JVM running for 152.045)
+[2023-08-28 02:15:32.981+0800] INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63 {} Condition evaluation unchanged
+[2023-08-28 02:16:20.342+0800] INFO  [Thread-21] o.s.s.c.ExecutorConfigurationSupport:208 {} Shutting down ExecutorService 'applicationTaskExecutor'
+[2023-08-28 02:16:22.720+0800] INFO  [restartedMain] o.s.b.StartupInfoLogger:50 {} Starting SnginxApplication on reinstajdkdembp with PID 78880 (/Users/reinstalljdk/IdeaProjects/snginx/target/classes started by reinstalljdk in /Users/reinstalljdk/IdeaProjects/snginx)
+[2023-08-28 02:16:22.721+0800] INFO  [restartedMain] o.s.b.SpringApplication:647 {} No active profile set, falling back to default profiles: default
+[2023-08-28 02:16:22.732+0800] INFO  [restartedMain] o.s.b.l.DeferredLog:225 {} Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2023-08-28 02:16:22.732+0800] INFO  [restartedMain] o.s.b.l.DeferredLog:225 {} For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2023-08-28 02:16:22.937+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:244 {} Multiple Spring Data modules found, entering strict repository configuration mode!
+[2023-08-28 02:16:22.938+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:126 {} Bootstrapping Spring Data repositories in DEFAULT mode.
+[2023-08-28 02:16:22.944+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:182 {} Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+[2023-08-28 02:16:22.948+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:244 {} Multiple Spring Data modules found, entering strict repository configuration mode!
+[2023-08-28 02:16:22.948+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:126 {} Bootstrapping Spring Data repositories in DEFAULT mode.
+[2023-08-28 02:16:22.952+0800] INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate:182 {} Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+[2023-08-28 02:16:23.057+0800] INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 {} Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$74b6556c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-08-28 02:16:23.201+0800] INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer:90 {} Tomcat initialized with port(s): 9980 (http)
+[2023-08-28 02:16:23.236+0800] INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext:284 {} Root WebApplicationContext: initialization completed in 504 ms
+[2023-08-28 02:16:23.254+0800] INFO  [restartedMain] c.y.s.SnginxApplication:20 {} info
+[2023-08-28 02:16:23.393+0800] INFO  [restartedMain] c.m.d.l.SLF4JLogger:71 {} Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2023-08-28 02:16:23.416+0800] INFO  [cluster-ClusterId{value='64eb92f7b27aeb34202861ea', description='null'}-localhost:27017] c.m.d.l.SLF4JLogger:71 {} Opened connection [connectionId{localValue:1}] to localhost:27017
+[2023-08-28 02:16:23.419+0800] INFO  [cluster-ClusterId{value='64eb92f7b27aeb34202861ea', description='null'}-localhost:27017] c.m.d.l.SLF4JLogger:71 {} Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[7, 0, 0]}, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2026292}
+[2023-08-28 02:16:23.466+0800] INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer:57 {} LiveReload server is running on port 35729
+[2023-08-28 02:16:23.581+0800] INFO  [restartedMain] o.r.Version:41 {} Redisson 3.13.6
+[2023-08-28 02:16:23.667+0800] INFO  [redisson-netty-4-14] o.r.c.p.ConnectionPool$1:167 {} 1 connections initialized for localhost/127.0.0.1:6379
+[2023-08-28 02:16:23.675+0800] INFO  [redisson-netty-4-20] o.r.c.p.ConnectionPool$1:167 {} 24 connections initialized for localhost/127.0.0.1:6379
+[2023-08-28 02:16:23.783+0800] INFO  [restartedMain] o.s.s.c.ExecutorConfigurationSupport:171 {} Initializing ExecutorService 'applicationTaskExecutor'
+[2023-08-28 02:16:23.893+0800] INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer:202 {} Tomcat started on port(s): 9980 (http) with context path ''
+[2023-08-28 02:16:23.895+0800] INFO  [restartedMain] o.s.b.StartupInfoLogger:59 {} Started SnginxApplication in 1.286 seconds (JVM running for 1.72)
+[2023-08-28 02:16:29.113+0800] INFO  [http-nio-9980-exec-2] o.s.w.s.FrameworkServlet:524 {} Initializing Servlet 'dispatcherServlet'
+[2023-08-28 02:16:29.116+0800] INFO  [http-nio-9980-exec-2] o.s.w.s.FrameworkServlet:546 {} Completed initialization in 3 ms
+[2023-08-28 02:16:29.163+0800] INFO  [http-nio-9980-exec-2] i.l.c.EpollProvider:68 {} Starting without optional epoll library
+[2023-08-28 02:16:29.163+0800] INFO  [http-nio-9980-exec-2] i.l.c.KqueueProvider:70 {} Starting without optional kqueue library
+[2023-08-28 02:17:21.572+0800] INFO  [Thread-11] o.s.s.c.ExecutorConfigurationSupport:208 {} Shutting down ExecutorService 'applicationTaskExecutor'
